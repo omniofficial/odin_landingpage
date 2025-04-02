@@ -58,6 +58,7 @@ a {
 .leftheader {
     font-weight: 900;
     font-size: 20px;
+    text-align: center;
 }
 
 .leftsubheader {
