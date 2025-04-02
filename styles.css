@@ -71,7 +71,7 @@ a {
     display: flex;
     justify-content: center;
 }
-button {
+.button button {
     font-family: Roboto, sans-serif;
     border: none;
     border-radius: 8px;
@@ -105,7 +105,7 @@ img {
 }
 .info {
     box-sizing: border-box;
-    border: solid pink 4px;
+    border: solid pink 3px;
     border-radius: 8px;
     max-width: 200px;
     justify-content: center;
@@ -123,4 +123,73 @@ img {
     font-weight: 600;
 }
 
+.main3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
 
+.quote_container {
+    padding: 0;
+    margin: 0;
+    margin-left: 475px;
+    margin-right: 475px;
+}
+
+.quote {
+    font-size: 15px;
+    font-style: italic;
+    color: #1f2937;
+}
+.author {
+    font-size: 16px;
+    text-align: right;
+    margin-top: -25px;
+    margin-right: 20px;
+}
+
+.main4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.signup_container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 150px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightseagreen;
+    border: solid pink 3px;
+    border-radius: 8px;
+}
+
+.signup_left h2 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: -15px;
+    font-weight: 700px;
+}
+
+.signup_left p {
+    font-size: 15px;
+}
+
+.signup_button {
+    justify-content: center;
+    align-items: center;
+}
+.signup_button button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: rgb(231, 238, 238);
+    padding: 5px 10px;
+    font-size: 12px;
+}
